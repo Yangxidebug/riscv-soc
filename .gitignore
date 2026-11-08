@@ -1,0 +1,16 @@
+# 构建产物
+build/
+obj_dir/
+impl/
+prj/
+
+# 波形与仿真日志
+*.vcd
+*.fst
+*.wlf
+*.o
+*.log
+
+# 编辑器
+.vscode/
+.DS_Store
