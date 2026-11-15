@@ -8,10 +8,12 @@ int main(int argc, char** argv) {
     Verilated::commandArgs(argc, argv);
     Verilated::traceEverOn(true);
 
+    const char* vcd_path = (argc > 1) ? argv[1] : "counter.vcd";
+
     Vcounter* dut = new Vcounter;
     VerilatedVcdC* tfp = new VerilatedVcdC;
     dut->trace(tfp, 99);
-    tfp->open("counter.vcd");
+    tfp->open(vcd_path);
 
     vluint64_t t = 0;
     int errors = 0;
