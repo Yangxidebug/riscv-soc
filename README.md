@@ -5,9 +5,9 @@
 
 ## 硬件
 
-- 板卡：Sipeed Tang Mega 60K Dock
-- 器件：GW5AT-LV60PG484A（59904 LUT4，2124 Kbit BSRAM）
-- 内存：512 MiB DDR3，最高 1100 Mbps
+- 板卡：小梅哥 ACG720-GW5AT60 教学开发板
+- 器件：GW5AT-60，PBG484A（59904 LUT4，2124 Kbit BSRAM）
+- 内存：256 MB DDR3
 - 工具：Gowin EDA、WSL2 + Verilator、Git
 
 ## 目录
