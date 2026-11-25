@@ -1,13 +1,13 @@
-# RISC-V SoC on Gowin GW5AT-60
+# RISC-V SoC on Gowin GW5AST-138
 
 在 FPGA 上自研 AXI 总线，集成 VexRiscv（RV32IMAC + Sv32 MMU + I/D Cache），
 最终跑通 U-Boot 与 Linux。
 
 ## 硬件
 
-- 板卡：小梅哥 ACG720-GW5AT60 教学开发板
-- 器件：GW5AT-60，PBG484A（59904 LUT4，2124 Kbit BSRAM）
-- 内存：256 MB DDR3
+- 板卡：小梅哥 ACG720-138K 教学开发板
+- 器件：GW5AST-138，PG484（Device Version C，138240 LUT4，6120 Kbit BSRAM）
+- 内存：256 MB DDR3，16 位数据宽，1:4 时钟比，用户接口 128 位
 - 工具：Gowin EDA、WSL2 + Verilator、Git
 
 ## 目录
